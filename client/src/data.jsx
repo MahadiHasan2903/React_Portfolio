@@ -28,6 +28,7 @@ import amazon from "./assets/Amazon.png";
 import carhub from "./assets/carhub.png";
 import hilink from "./assets/hilink.png";
 import mainportfolio from "./assets/mainportfolio.png";
+import blogsite from "./assets/blogsite.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -309,7 +310,7 @@ export const skills = [
 
 export const portfolio = [
   {
-    id: 19,
+    id: 18,
     img: mhstore,
     title: "Web Application",
 
@@ -334,6 +335,35 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://mh-store-multivendor-ecommerce.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 19,
+    img: blogsite,
+    title: "Web Application",
+
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "MH Blgsite",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "TypeScript, Nextjs",
+      },
+      {
+        icon: <FaGithub />,
+        title: "Source : ",
+        desc: "https://github.com/MahadiHasan2903/Blog_Site.git",
+      },
+
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://mh-blogsite.vercel.app/",
       },
     ],
   },
